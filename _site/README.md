@@ -136,13 +136,10 @@ Hydure allows you to show social links on your website. All you need to do is cr
 
 ```yml
 - title: Email
-  url: mailto:zivong@protonmail.com
+  url: mailto:ysnarmi2@protonmail.com
   icon: fas fa-envelope
-- title: Twitter
-  url: https://twitter.com/zivong91
-  icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/zivong
+  url: https://github.com/ysnarmi
   icon: fab fa-github
 ```
 

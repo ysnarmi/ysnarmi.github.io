@@ -160,6 +160,8 @@ figcaption.align-left { text-align: left; }
 
 figcaption.align-center { text-align: center; }
 
+.chan { font-size: 16px; }
+
 /** rougify style github */
 .highlight table td { padding: 5px; }
 

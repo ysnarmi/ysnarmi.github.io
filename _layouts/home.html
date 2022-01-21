@@ -11,20 +11,36 @@ layout: default
     <div class="post">
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
+          나르미란?
         </a>
       </h2>
-
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta">{{ post.date | date_to_string }}</time>
-
       <p class="post-excerpt">
-        {% if post.description %}
-          {{ post.description | strip_html }}
-        {% else %}
-          {{ post.excerpt | strip_html }}
-        {% endif %}
+        양산 할머니, 할아버지들과 청년이 함께하는 협동조합!<br>
+        할머니, 할아버지는 양산지역의 택배를 나르고,<br>
+        청년들은 협동조합의 운영을 위해 개발하고,<br>
+        양산나르미협동조합은 지속가능한 발전을 위해 힘쓰고 있습니다.
       </p>
     </div>
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        Back-End 개발자 소개
+      </a>
+    </h2>
+    <p class="post-excerpt">
+
+    </p>
+  </div>
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        Front-End 개발자 소개
+      </a>
+    </h2>
+    <p class="post-excerpt">
+
+    </p>
+  </div>
   {% endfor %}
 </div>
 

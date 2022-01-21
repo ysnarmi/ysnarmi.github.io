@@ -14,3 +14,13 @@
 @media (prefers-color-scheme: dark) {
   @import "highlight-dark";
 }
+.btn_skill{
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #e67700;
+}
+.btn_skill.two{
+  background-color: #ab8022;
+}

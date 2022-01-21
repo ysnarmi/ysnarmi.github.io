@@ -10,9 +10,9 @@ layout: default
   {% for post in posts %}
     <div class="post">
       <h2 class="post-title">
-        <a href="{{ post.url | relative_url }}">
+<!--        <a href="{{ post.url | relative_url }}">-->
           나르미란?
-        </a>
+<!--        </a>-->
       </h2>
       <p class="post-excerpt">
         양산 할머니, 할아버지들과 청년이 함께하는 협동조합!<br>
@@ -23,9 +23,7 @@ layout: default
     </div>
   <div class="post">
     <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">
         Back-End 개발자 소개
-      </a>
     </h2>
     <p class="post-excerpt">
 
@@ -33,12 +31,40 @@ layout: default
   </div>
   <div class="post">
     <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">
         Front-End 개발자 소개
-      </a>
     </h2>
+    <div class="post-excerpt">
+      Techincal Skills
+      <div class="btn_skill">Html</div>
+      <div class="btn_skill two">Css</div>
+      <div class="btn_skill ">Scss</div>
+      <div class="btn_skill two">Ajax</div>
+      <div class="btn_skill">Node.js</div>
+      <div class="btn_skill two">Javascript</div>
+      <div class="btn_skill">Typescript</div>
+      <div class="btn_skill two">React</div>
+      <div class="btn_skill">Git</div>
+      <div class="btn_skill two">Jira</div>
+      <ul>
+        <li>웹 표준을 준수하고, 의미론에 따라 유의미한 마크업을 위해 노력합니다.</li>
+        <li>jquery > Vanilla JS 전환 작업</li>
+        <li>Vanilla JS > React JS 전환 작업</li>
+        <li>반응형 웹에 대한 경험이 있고, 크로스브라우징 완성도를 높이기 위해 힘씁니다.</li>
+        <li>Gib / Jira를 통한 협업 경험이 있습니다.</li>
+        <li>Photoshop, Zeplin을 통한 디자이너와 협업 경험이 있습니다.</li>
+        <li>Node.js 모듈을 통한 개발 경험이 있습니다.</li>
+      </ul>
+    </div>
     <p class="post-excerpt">
-
+      Work Experience (2017~)
+      <ul>
+        <li>(주)비트컴퓨터 : JAVA 기반 Database 개발자 양성과정 수료</li>
+        <li>회원관련 서비스(회원가입, 회원탈퇴, 휴면회원, 실명인증-나이스 인증) 담당</li>
+        <li>전체적인 이벤트 페이지 퍼블리싱 및 Ajax 담당</li>
+        <li>모바일 QR 결제 담당</li>
+        <li>차트(트레이딩 뷰)를 적용한 오토트레이딩 서비스</li>
+        <li>코인(BTC / ETH / ERC20 / BEP20) 지갑생성 및 전송 스크립트 개발</li>
+      </ul>
     </p>
   </div>
   {% endfor %}
